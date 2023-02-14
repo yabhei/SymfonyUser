@@ -21,7 +21,7 @@ class HomeController extends AbstractController
      * @Route("/home/show", name="show_user")
      */
     public function show(): Response {
-
+        // To show the details of the user
         return $this->render('home/show.html.twig', []);
 
     }

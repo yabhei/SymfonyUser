@@ -6,7 +6,9 @@
    
    <h1>  {{app.user.pseudo }} </h1>
    <p>
-    {{app.user.email}}
+   Email : {{app.user.email}}<br />
+   Date de naissance : {{ app.user.dateNaissance | date('d/m/Y')}}
+    
    
  
    </p>
